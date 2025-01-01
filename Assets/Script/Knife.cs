@@ -45,6 +45,7 @@ public class Knife : MonoBehaviour
         }
 
 
+
     }
 
     void JumpKnife()
@@ -96,5 +97,6 @@ public class Knife : MonoBehaviour
     bool IsGrounded()
     {
         return Mathf.Abs(rb.velocity.y) < 0.1f;
+      
     }
 }
